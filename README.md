@@ -2,6 +2,7 @@
 
 ## Learning Objectives
 - Use Spring Boot, Spring Data JPA and Hibernate to build a RESTful API
+- Secure the API  using a suitable sysem (ie using JWT etc)
 - Use object-oriented programming to manage source code complexity
 - Use an API client to test-drive code
 
@@ -20,6 +21,8 @@ It's time to use everything you've learned up to this point! Your task is to bui
 Pay close attention to the details of each endpoint. How you choose to implement the solution is up to you, there are no wrong answers, but the inputs and outputs must match the provided API documentation exactly.
 
 [You'll find an entity relationship diagram here.](./assets/entity-relationship-diagram.png) Use it to help you design your models.
+
+The specification does not include any details of the authentication and security system which you will need to implement in the same way as you were shown during the morning session (ie using JWT and roles). For the roles you probably need to have an Admin role, a Customer role and any other suitable one you see fit to add to the system. Only authenticated users should be able to access the endpoints, only admin users should be able to add and update films and showings. Depending on how you choose to organise the roles and authentication system you may need to document this in your solution.
 
 Example application.yml file:
 
